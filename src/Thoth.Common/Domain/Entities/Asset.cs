@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using Thoth.Common.Enums;
 using Thoth.Common.Domain.Entities;
 
-namespace Investidor.Common.Domain.Entities;
+namespace Thoth.Common.Domain.Entities;
 
 [Table("asset")]
 public class Asset: ModelBase

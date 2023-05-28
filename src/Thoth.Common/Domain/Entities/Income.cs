@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 using Thoth.Common.Domain.Entities;
 
-namespace Investidor.Common.Domain.Entities;
+namespace Thoth.Common.Domain.Entities;
 
 [Table("income")]
 public class Income: ModelBase

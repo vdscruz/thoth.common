@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 using Thoth.Common.Enums;
 using Thoth.Common.Domain.Entities;
 
-namespace Investidor.Common.Domain.Entities;
+namespace Thoth.Common.Domain.Entities;
 
 [Table("movement")]
 public class Movement: ModelBase
